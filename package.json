@@ -2,10 +2,11 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.2.0",
-    "ts-jest": "^29.4.4",
-    "scripts": {
-      "test": "jest",
-      "test:coverage":"jest --coverage"
-    }
-}
+    "ts-jest": "^29.4.4"
+  },
+  
+"scripts": {
+"test": "jest",
+"test:coverage": "jest --coverage"
+ }
 }

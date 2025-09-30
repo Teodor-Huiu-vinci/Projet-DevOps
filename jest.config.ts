@@ -5,7 +5,7 @@ testMatch: ['**/__tests__/**/*.ts', '**/?(*.)+(spec|test).ts'],
 coverageDirectory: 'coverage',
 coverageReporters: ['text', 'lcov', 'html'],
 collectCoverageFrom: ['src/**/*.ts'],
-// seuil minimum de coverage 70%8
+// seuil minimum de coverage 70%
 coverageThreshold: {
 global: {
 branches: 70,
